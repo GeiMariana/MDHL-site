@@ -1,0 +1,83 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing:border-box;
+    background-color: #ededed;
+}
+header{
+    background-image: url(/assets/design1_image1.jpg);
+    background-size: cover;
+    color: rgb(45, 12, 86);
+    font-size: 25px;
+    font-style: oblique;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 20px;
+    height: 650px;
+    text-align: left;
+}
+h1{
+    position: relative;
+    text-shadow: 2px 2px #58549e;
+    background-color: transparent;
+}
+
+nav{
+    background-color: #ededed;
+    color: #58549e;
+    text-align: left;
+    font-weight: bolder;
+    display: inline-block;
+    font-size: 15px;
+}
+.upcoming{
+background-color: black;
+text-align: center;
+display: block;
+max-block-size: 80px;
+overflow: visible;
+}
+
+.upcoming>h2{
+    font-size: 30px;
+    font-style: italic;
+    color: white;
+    display: inline;
+    background-color: black;
+    position: relative;
+    top: 1vmax;
+}
+figure{
+    margin-right: 20%;
+    margin-left: 80%;
+    display: block;
+    border-radius: 20px;
+    position: relative;
+    bottom: 3vmax;
+    width: 10%;
+}
+p,a{
+    top: 2px;
+    display: block;
+    position: relative;
+    left: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+body>section{
+    position: relative;
+    left: 250px;
+    bottom: 15vw;
+    box-sizing: content-box;
+}
+h3{
+    position: relative;
+    top: 10px;
+    font-size: 30px;
+}
+.parrafo {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: block;
+    width: 70%;
+}

@@ -1,0 +1,83 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing:border-box;
+    background-color: white;
+    
+}
+header{
+    color: #ededed;
+    font-size: 25px;
+    font-style: oblique;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url(/assets/design1_image2.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    height: 550px;
+}
+
+h1{
+    text-align: left;
+    color: black;
+}
+h2{
+    outline: solid;
+    text-align: center;
+    display: block;
+    }
+    
+    nav{
+        right: 2px;
+        top: 40px;
+        position: absolute;
+        text-align: right;
+        font-weight: bolder;
+        background-color: transparent;
+    }
+a {
+        display: inline;
+        margin: 3px;
+        box-shadow: 2px 2px black;
+        font-size: 22px;
+        color: white ;
+        background-color: blue;
+        text-decoration: none;
+    }
+.a {
+        display:inline;
+        margin: 3px;
+        box-shadow: 2px 2px black;
+        font-size: 22px;
+        color: white ;
+        text-decoration: none;
+        background-color: green;
+    }
+figure{
+    text-align: left;
+    margin: 50px;
+}
+
+body>section{
+    position: relative;
+    left: 250px;
+    bottom: 12vw;
+    box-sizing: content-box;
+}
+h3{
+    position: relative;
+    top: 10px;
+    font-size: 30px;
+}
+.parrafo {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: block;
+    font-size: 20px;
+    width: 70%;
+}
+.mail{
+    font-style: oblique;
+    word-spacing: normal;
+}
+

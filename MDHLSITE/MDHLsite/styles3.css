@@ -1,0 +1,134 @@
+*{
+    background-color: #13005A;
+    box-sizing: border-box;
+}
+header{
+    background-image: url(./assets/hockey2.jpg);
+    background-size: cover;
+    color: #03C988 ;
+    font-size: 25px;
+    font-style: oblique;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-position: top;
+    border-radius: 20px;
+    height: 550px;
+    text-align: center;
+}
+h1{
+    margin-top: 220px;
+    margin-left: 90px;
+    position: absolute;
+    text-align: center;
+    background-color: transparent;
+    text-shadow: 2px 2px #1C82AD;
+}
+nav{
+    left: 2px;
+    top: 5px;
+    position: absolute;
+    font-weight: bolder;
+    background-color: transparent;
+
+}
+a, .a,.input{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #03C988;
+    text-decoration:none;
+    color:#13005A;
+    margin: 5px;
+    position: relative;
+    left: 20px;
+    top: 2px;
+    font-size: 20px;
+    width: auto;
+}
+.upcoming{
+
+    display: block;
+    max-block-size: 80px;
+    width: 93%;
+}
+.upcoming>h2{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    font-size: 30px;
+    font-style: italic;
+    color: #03C988 ;
+    position: relative;
+    top: 10px;
+}
+
+.logo{
+    position: absolute;
+    margin-left: 20px;
+    display: block;
+    border-radius: 20px;
+    bottom: 50px;
+    top: 500px;
+}
+p,dt,dl,dd{
+    top: 2px;
+    display: block;
+    color:#1C82AD;
+    position: relative;
+    left: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+main>section{
+    position: relative;
+    text-align: justify;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    left: 250px;
+    width: 60%;
+}
+h3{
+    color: #03C988 ;
+    position: relative;
+    top: 10px;
+    font-size: 30px;
+}
+.parrafo {
+    color: #1C82AD ;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: block;
+}
+.mail{
+    background-color: transparent;
+    color: white;
+    font-style: oblique;
+    text-decoration: none;
+}
+.games {
+    text-decoration: underline;
+}
+h2{
+    color: #03C988 ;
+    position: relative;
+    top: 10px;
+    left: 5px;
+    font-size: 30px;
+}
+table{
+    position: relative;
+    text-align: justify;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    left: 250px;
+    width: 40%;
+    color: #9F73AB;
+}
+label,select{
+    display: flex;
+    flex: content;
+    color:#1C82AD;
+    position: relative;
+    font-size: 20px;
+}
+span,fieldset{
+    display: flex;
+    color: #1C82AD;
+    font-size: 20px;
+}
